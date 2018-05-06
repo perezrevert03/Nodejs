@@ -6,8 +6,6 @@ var publisher = zmq.socket('pub')
 
 var args = process.argv.slice(2)
 
-var args = process.argv.slice(2)
-
 var verbose = false
 if (args[args.length - 1] == "-v") {
   args.pop()
